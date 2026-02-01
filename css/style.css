@@ -1,0 +1,108 @@
+/* HW2 Simple CSS - style.css */
+
+/* 1. Body styles */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px 20px 0 20px;
+}
+
+/* 2. H1 heading styles */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* 3. H2 heading styles */
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+/* 4. Default paragraph styles */
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+}
+
+/* 5. Default image styles */
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 10px dashed #ffffff;
+}
+
+/* 6. Default div styles */
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #ffffff;
+}
+
+/* 7. Introduction class styles */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+/* 8. Red class styles */
+.red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+}
+
+/* 9. Blue class styles */
+.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-right-width: 5px;
+    border-top-width: 2px;
+}
+
+.blue h2,
+.blue p {
+    color: #C4C4C4;
+}
+
+/* 10. Yellow class styles */
+.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+}
+
+.yellow p {
+    color: #707070;
+}
+
+/* 11. Green class styles */
+.green {
+    background-color: #00FF00;
+    text-align: left;
+    margin-right: 50px;
+    border-right-width: 5px;
+    border-top-width: 2px;
+}
+
+/* 12. Footer styles */
+footer {
+    background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
+    border: 5px solid #ffffff;
+}
+
+/* 13. Footer paragraph styles */
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
+}
